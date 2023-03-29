@@ -1,3 +1,11 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /libraries/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+Disallow: /vendor/
+
+Sitemap: https://www.example.com/sitemap.xml
