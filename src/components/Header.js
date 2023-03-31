@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/img/logo.svg';
 import { useTranslation } from 'react-i18next';
 import { Navbar, Nav } from 'react-bootstrap';
-import { prop } from '@waves/node-api-js/cjs/tools/utils';
+// import { prop } from '@waves/node-api-js/cjs/tools/utils';
 
-function Header( props ) {
+function Header() {
   const { t } = useTranslation();
 
   return (
