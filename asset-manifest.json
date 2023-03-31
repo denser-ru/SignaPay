@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SignaPay/static/css/main.44f8b8b5.css",
+    "main.js": "/SignaPay/static/js/main.48d20e62.js",
+    "static/media/logo.svg": "/SignaPay/static/media/logo.49bd8d2559b022fed937d8896932a95c.svg",
+    "index.html": "/SignaPay/index.html",
+    "main.44f8b8b5.css.map": "/SignaPay/static/css/main.44f8b8b5.css.map",
+    "main.48d20e62.js.map": "/SignaPay/static/js/main.48d20e62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.48d20e62.js"
+  ]
+}
