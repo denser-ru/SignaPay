@@ -8,7 +8,9 @@
         "businessCorrespondence": "Business Correspondence",
         "exchange": "Exchange",
         "contacts": "Contacts",
-        "support": "Support"
+        "support": "Support",
+        "toDark": "Switch to Dark Theme",
+        "toLight": "Switch to Light Theme"
     },
     "home": {
         "welcome": "Business messenger with smart contracts on the blockchain",

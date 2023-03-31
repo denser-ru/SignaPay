@@ -8,7 +8,9 @@
         "businessCorrespondence": "Correspondencia comercial",
         "exchange": "Intercambio",
         "contacts": "Contactos",
-        "support": "Soporte"
+        "support": "Soporte",
+        "toDark": "Cambiar a tema oscuro",
+        "toLight": "Cambiar a tema claro"
     },
     "tokens": {
         "tokensPage": "Tokens",

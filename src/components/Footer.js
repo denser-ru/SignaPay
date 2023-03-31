@@ -1,12 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 function Footer() {
     return (
-        <footer className="footer mt-auto py-3 bg-light">
-            <div className="container">
+            <Container fluid className="mt-5">
                 <p className="text-muted">SignaPay © {new Date().getFullYear()}</p>
-            </div>
-        </footer>
+            </Container>
     );
 }
 

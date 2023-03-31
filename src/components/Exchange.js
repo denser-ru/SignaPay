@@ -1,12 +1,13 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
 function Exchange() {
   const { t } = useTranslation();
 
   return (
-    <div className="exchange">
-      <div className="container">
+    <Container>
+      <Row>
         <h2>{t('exchange.exchangePage')}</h2>
         <p>{t('exchange.exchangeInfo')}</p>
         <form>
@@ -32,8 +33,8 @@ function Exchange() {
           </div>
           <button type="submit" className="btn btn-primary">{t('exchange.exchangeButton')}</button>
         </form>
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 }
 
