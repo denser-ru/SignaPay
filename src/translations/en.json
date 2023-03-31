@@ -1,0 +1,75 @@
+{
+    "header": {
+        "home": "Home",
+        "login": "Log in",
+        "registration": "Registration",
+        "tokens": "Tokens",
+        "documents": "Documents",
+        "businessCorrespondence": "Business Correspondence",
+        "exchange": "Exchange",
+        "contacts": "Contacts",
+        "support": "Support"
+    },
+    "home": {
+        "welcome": "Business messenger with smart contracts on the blockchain",
+        "description": "Welcome to SignaPay - your all-in-one solution for secure and efficient business communication, document signing, and smart-contract based deals. Join us today and experience the future of business!",
+        "signup": "Sign up"
+    },
+    "login": {
+        "title": "Log In",
+        "email": "Email",
+        "emailPlaceholder": "Enter your email",
+        "password": "Password",
+        "passwordPlaceholder": "Enter your password",
+        "loginBtn": "Log In",
+        "signUpBtn": "Sign Up"
+    },
+    "registration": {
+        "title": "Registration",
+        "name": "Name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "button": "Register"
+    },
+    "tokens": {
+        "tokensPage": "Tokens",
+        "tokensDescription": "Here you can learn about all the available tokens on our platform.",
+        "btcDescription": "Bitcoin is a digital currency that operates without a central bank or single administrator. Transactions are directly between users.",
+        "ethDescription": "Ethereum is an open-source platform that allows developers to build and deploy smart contracts and decentralized applications.",
+        "ltcDescription": "Litecoin is a cryptocurrency that was created in 2011 by Charlie Lee as a faster and cheaper alternative to Bitcoin."
+    },
+    "exchange": {
+        "exchangePage": "Exchange",
+        "exchangeInfo": "You can exchange currencies on our platform at a favorable rate.",
+        "fromCurrency": "From:",
+        "toCurrency": "To:",
+        "amount": "Amount:",
+        "exchangeButton": "Exchange"
+    },
+    "documents": {
+        "title": "Documents",
+        "description": "Here is the list of all required documents:",
+        "id": "Government-issued ID",
+        "proofOfAddress": "Proof of address",
+        "bankStatement": "Bank statement",
+        "businessDocs": "Business registration documents (if applicable)"
+    },
+    "businessCorrespondence": {
+        "businessCorrespondencePage": "Business Correspondence",
+        "businessCorrespondenceDescription": "Here is the list of all business correspondence:",
+        "emails": "Emails",
+        "letters": "Letters",
+        "invoices": "Invoices",
+        "contracts": "Contracts"
+    },
+    "support": {
+        "title": "Support",
+        "DearCustomer": "Dear valued customer,",
+        "HigherPower": "At this time, we regret to inform you that our support team is currently seeking assistance from a higher power.",
+        "Patience": "We kindly ask for your patience and understanding as we navigate these challenging times together.",
+        "CatPicture": "In the meantime, please enjoy this picture of a cat:",
+        "CatAltText": "cute kitten"
+    },
+    "footerText": "© 2023 My Awesome Company. All rights reserved."
+}
