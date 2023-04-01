@@ -7,7 +7,8 @@
       // получаем путь, запрошенный пользователем
       var path = window.location.pathname;
       // получаем префикс сайта, который нужно добавить к запрошенному пути
-      var prefix = '/#';
+      var prefix = '/signapay#' + path.replace('/signapay', '');
+      
       // перенаправляем на основной адрес с добавлением запрошенного пути и префикса
       window.location.replace(window.location.origin + prefix + path);
     </script>
