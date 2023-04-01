@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/signapay/static/css/main.44f8b8b5.css",
-    "main.js": "/signapay/static/js/main.b968ce71.js",
+    "main.js": "/signapay/static/js/main.4772d439.js",
     "static/media/logo.svg": "/signapay/static/media/logo.49bd8d2559b022fed937d8896932a95c.svg",
     "index.html": "/signapay/index.html",
     "main.44f8b8b5.css.map": "/signapay/static/css/main.44f8b8b5.css.map",
-    "main.b968ce71.js.map": "/signapay/static/js/main.b968ce71.js.map"
+    "main.4772d439.js.map": "/signapay/static/js/main.4772d439.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.b968ce71.js"
+    "static/js/main.4772d439.js"
   ]
 }
