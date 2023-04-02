@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Container, Image } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import { House } from 'react-bootstrap-icons';
 
 function Home() {
   const { t } = useTranslation();
@@ -15,7 +16,8 @@ function Home() {
           <Link className="btn btn-primary" to="/registration">{t('home.signup')}</Link>
         </div>
         <div className="col-lg-3 col-md-12">
-          <Image src="./assets/img/home.png" alt="SignaPay Home" rounded className="shadow" />
+          {/* <Image src="./assets/img/logo_home.svg" alt="SPIYANAA Home" rounded className="shadow" /> */}
+          <House />
         </div>
       </div>
     </Container>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { useNavigate, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import Login from './Login';
@@ -79,10 +79,33 @@ function App() {
     };
   }, [theme]);
 
+  const navigate = useNavigate();
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.slice(1);
+      if (hash) {
+        navigate(`/${hash}`);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, [navigate]);
+
+
+  // Вычисляем basename с учетом псевдопапки
+  // const baseUrl = 'https://denser-ru.github.io/spiyanaa/';
+  const pathName = window.location.pathname;
+  const basename = pathName.startsWith('/spiyanaa') ? '/spiyanaa' : '';
+  console.log("basename: " + basename);
+
   return (
     <ThemeProvider>
       <Container className={lightMode}>
-        <Header />
+        <Header basename={basename} />
 
         <Container>
           <Row>
@@ -141,15 +164,15 @@ function App() {
         </Container>
 
         <Container>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/registration" element={<Registration />} />
-            <Route path="/tokens" element={<Tokens />} />
-            <Route path="/documents" element={<Documents />} />
-            <Route path="/business-correspondence" element={<BusinessCorrespondence />} />
-            <Route path="/exchange" element={<Exchange />} />
-            <Route path="/support" element={<Support />} />
+        <Routes basename={`${basename}`}>
+            <Route exact path={`${basename}/`} element={<Home />} />
+            <Route path={`${basename}/login`} element={<Login />} />
+            <Route path={`${basename}/registration`} element={<Registration />} />
+            <Route path={`${basename}/tokens`} element={<Tokens />} />
+            <Route path={`${basename}/documents`} element={<Documents />} />
+            <Route path={`${basename}/business-correspondence`} element={<BusinessCorrespondence />} />
+            <Route path={`${basename}/exchange`} element={<Exchange />} />
+            <Route path={`${basename}/support`} element={<Support />} />
           </Routes>
         </Container>
         <Footer />

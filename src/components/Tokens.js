@@ -11,21 +11,21 @@ function Tokens() {
         <div className="row">
           <div className="col-md-4">
             <div className="token-card">
-              <img src="./assets/img/btc.png" alt="Bitcoin" className="img-fluid" />
+              <img src="https://www.cryptocompare.com/media/19633/btc.png" alt="Bitcoin" className="w-50 mw-100" />
               <h3>Bitcoin</h3>
               <p>{t('tokens.btcDescription')}</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="token-card">
-              <img src="./assets/img/eth.png" alt="Ethereum" className="img-fluid" />
+              <img src="https://www.cryptocompare.com/media/20646/eth_logo.png" alt="Ethereum" className="w-50 mw-100" />
               <h3>Ethereum</h3>
               <p>{t('tokens.ethDescription')}</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="token-card">
-              <img src="./assets/img/ltc.png" alt="Litecoin" className="img-fluid" />
+              <img src="https://www.cryptocompare.com/media/19782/litecoin-logo.png" alt="Litecoin" className="w-50 mw-100" />
               <h3>Litecoin</h3>
               <p>{t('tokens.ltcDescription')}</p>
             </div>
