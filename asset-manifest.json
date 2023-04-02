@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/spiyanaa/static/css/main.44f8b8b5.css",
-    "main.js": "/spiyanaa/static/js/main.8891647e.js",
+    "main.js": "/spiyanaa/static/js/main.d11ff28e.js",
     "static/media/logo.svg": "/spiyanaa/static/media/logo.49bd8d2559b022fed937d8896932a95c.svg",
     "index.html": "/spiyanaa/index.html",
     "main.44f8b8b5.css.map": "/spiyanaa/static/css/main.44f8b8b5.css.map",
-    "main.8891647e.js.map": "/spiyanaa/static/js/main.8891647e.js.map"
+    "main.d11ff28e.js.map": "/spiyanaa/static/js/main.d11ff28e.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.8891647e.js"
+    "static/js/main.d11ff28e.js"
   ]
 }
